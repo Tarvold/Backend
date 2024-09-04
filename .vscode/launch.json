@@ -1,0 +1,34 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ViikkoharjoituksetApplication<viikkoharjoitukset>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "hellothymeleaf.viikkoharjoitukset.ViikkoharjoituksetApplication",
+            "projectName": "viikkoharjoitukset",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-HandlinglistsApplication<handlinglists>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "viikkoharjoitukset.handlinglists.HandlinglistsApplication",
+            "projectName": "handlinglists",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-FriendformresultApplication<friendformresult>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "viikkoharjoitukset.friendformresult.FriendformresultApplication",
+            "projectName": "friendformresult",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
